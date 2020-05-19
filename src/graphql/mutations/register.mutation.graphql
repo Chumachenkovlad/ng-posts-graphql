@@ -1,0 +1,11 @@
+# import '../fragments/user.fragment.graphql'
+
+mutation Register($registerInput: RegisterInput!) {
+  register(registerInput: $registerInput) {
+    token
+    expires
+    user {
+      ...UserFragment
+    }
+  }
+}

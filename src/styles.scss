@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+form.login-form {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+  font-size: 12px;
+  text-align: center;
+
+  .form-server-error {
+    margin-bottom: 15px;
+    white-space: nowrap;
+  }
+}
+
+.form-container {
+  width: 300px;
+  min-height: 200px;
+}

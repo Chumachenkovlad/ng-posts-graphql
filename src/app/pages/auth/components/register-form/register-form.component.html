@@ -1,0 +1,44 @@
+<form class="login-form" (submit)="submit()" [formGroup]="form">
+  <mat-form-field
+    appearance="outline"
+    formControlScope
+    uitm="formField(username)"
+  >
+    <mat-label>Username</mat-label>
+    <input
+      matInput
+      autofocus
+      type="text"
+      placeholder="Username"
+      formControlName="username"
+    />
+  </mat-form-field>
+  <mat-form-field appearance="outline" formControlScope uitm="formField(email)">
+    <mat-label>Email</mat-label>
+    <input
+      matInput
+      autofocus
+      type="text"
+      placeholder="Email"
+      formControlName="email"
+    />
+  </mat-form-field>
+  <mat-form-field
+    appearance="outline"
+    formControlScope="password"
+    uitm="formField(password)"
+  >
+    <mat-label>Password</mat-label>
+    <input
+      #passwordInput
+      matInput
+      type="password"
+      placeholder="Password"
+      formControlName="password"
+    />
+  </mat-form-field>
+
+  <button mat-raised-button type="submit" color="primary">
+    Register
+  </button>
+</form>

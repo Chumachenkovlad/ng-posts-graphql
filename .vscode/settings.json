@@ -1,0 +1,75 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 1,
+  "npm.enableScriptExplorer": true,
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "tslint.configFile": "tslint.json",
+  "todohighlight.keywords": [
+    {
+      "text": "@techdept",
+      "color": "#ecf0f1",
+      "border": "1px solid #8e44ad",
+      "borderRadius": "4px",
+      "backgroundColor": "#9b59b6"
+    },
+    {
+      "text": "@refactor",
+      "color": "#ecf0f1",
+      "border": "1px solid #c0392b",
+      "borderRadius": "4px",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "@todo",
+      "color": "#ecf0f1",
+      "border": "1px solid #27ae60",
+      "borderRadius": "4px",
+      "backgroundColor": "#2ecc71"
+    }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  "jest.autoEnable": false,
+  "jest.runAllTestsFirst": false,
+  "search.exclude": {
+    "**/tmp": true
+  },
+  "task.autoDetect": "off",
+  "prettier.configPath": ".prettierrc",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.multiLineWrapThreshold": 100,
+  "typescriptHero.imports.multiLineTrailingComma": false,
+  "typescriptHero.imports.grouping": [
+    "/@angular/",
+    "/@ngrx/",
+    "/rxjs/",
+    "/@touchcom/",
+    "Modules",
+    "Workspace",
+    "Plains"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.format.enable": false,
+  "explorer.compactFolders": false,
+  "editor.formatOnSaveTimeout": 1000,
+  "ngx-translate.lookup.resourcesType": "json",
+  "ngx-translate.lookup.resourcesPath": "",
+  "ngx-translate.lookup.resourcesPaths": [
+    "src/assets/i18n/en.json",
+    "src/assets/i18n/en-additional.json"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
